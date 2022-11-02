@@ -21,7 +21,7 @@ body{
     
   li a {
     display: block;
-    color: #3a3a3a;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -34,11 +34,11 @@ body{
   }
     
   li a:hover:not(.active) {
-    color: #3a3a3a;
+    color: white;
   }
     
   .active {
-    color: #3a3a3a;
+    color: white;
   }
   
   @media screen and (max-width: 600px) {
@@ -199,4 +199,7 @@ body{
   
   .footer-grid p {
     margin: 10px 0;
+  }
+  .container {
+    background-color: black;
   }
